@@ -1,5 +1,6 @@
 <?php
-/** WP Groove™ <https://wpgroove.com>
+/**
+ * WP Groove™ {@see https://wpgroove.com}
  *  _       _  ___       ___
  * ( )  _  ( )(  _`\    (  _`\
  * | | ( ) | || |_) )   | ( (_) _ __   _      _    _   _    __  ™
@@ -7,6 +8,8 @@
  * | (_/ \_) || |       | (_, )| |  ( (_) )( (_) )| \_/ |(  ___/
  * `\___x___/'(_)       (____/'(_)  `\___/'`\___/'`\___/'`\____)
  */
+// <editor-fold desc="Strict types, namespace, use statements, and other headers.">
+
 /**
  * Plugin Name: Skeleton Plugin
  * Plugin URI: https://wpgroove.com/product/skeleton-plugin
@@ -34,21 +37,60 @@
  *
  * Update URI: https://wpgroove.com/product/skeleton-plugin/update
  */
+
+/**
+ * Declarations & namespace.
+ *
+ * @since 2021-12-25
+ */
+declare( strict_types = 1 ); // ｡･:*:･ﾟ★.
 namespace WP_Groove\Skeleton_Plugin;
+
+/**
+ * Utilities.
+ *
+ * @since 2021-12-15
+ */
+use Clever_Canyon\Utilities\STC\{Version_1_0_0 as U};
+use Clever_Canyon\Utilities\OOP\Version_1_0_0\{Offsets, Generic, Error, Exception, Fatal_Exception};
+use Clever_Canyon\Utilities\OOP\Version_1_0_0\Abstracts\{A6t_Base, A6t_Offsets, A6t_Generic, A6t_Error, A6t_Exception};
+use Clever_Canyon\Utilities\OOP\Version_1_0_0\Interfaces\{I7e_Base, I7e_Offsets, I7e_Generic, I7e_Error, I7e_Exception};
+
+/**
+ * WP Groove utilities.
+ *
+ * @since 2021-12-15
+ */
+use WP_Groove\Framework\Utilities\STC\{Version_1_0_0 as UU};
+use WP_Groove\Framework\Plugin\Version_1_0_0\Abstracts\{AA6t_Plugin};
+use WP_Groove\Framework\Utilities\OOP\Version_1_0_0\Abstracts\{AA6t_App};
+
+// </editor-fold>
 
 /**
  * No direct access.
  *
- * @since 1.0.0
+ * @since 2021-12-15
  */
 if ( ! defined( 'WPINC' ) ) {
 	exit( 'No direct access.' );
 }
 
 /**
- * Adds plugin instance hooks.
+ * Requires autoloader.
  *
- * @since 1.0.0
+ * @since 2021-12-15
  */
 require_once __DIR__ . '/vendor/autoload.php';
-Plugin::add_plugin_instance_hooks( __FILE__, '1.0.0' /* @version */ );
+
+/**
+ * Adds instance hooks.
+ *
+ * @since 2021-12-15
+ */
+Plugin::add_instance_hooks(
+	__FILE__,
+	'Skeleton Plugin', // @name
+	'wpgroove-skeleton-plugin', // @slug
+	'1.0.0' // @version
+);

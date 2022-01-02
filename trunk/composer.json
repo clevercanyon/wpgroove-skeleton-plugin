@@ -1,17 +1,16 @@
 {
-	"name": "clevercanyon/wpgroove-skeleton-plugin.trunk",
-	"prefer-stable": true,
-	"minimum-stability": "dev",
-	"config": {
-		"process-timeout": 0,
-		"optimize-autoloader": true
+	"name"              : "clevercanyon/wpgroove-skeleton-plugin.trunk",
+	"prefer-stable"     : true,
+	"minimum-stability" : "dev",
+	"config"            : {
+		"prepend-autoloader" : false
 	},
-	"require": {
-		"clevercanyon/wpgroove-framework": "dev-main"
+	"require"           : {
+		"clevercanyon/wpgroove-framework" : "dev-main"
 	},
-	"autoload": {
-		"psr-4": {
-			"WP_Groove\\Skeleton_Plugin\\": "./src/classes"
+	"autoload"          : {
+		"psr-4" : {
+			"WP_Groove\\Skeleton_Plugin\\" : "./src/classes"
 		}
 	}
 }
