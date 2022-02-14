@@ -75,7 +75,7 @@ use WP_Groove\{Skeleton_Plugin as WP};
  * @since 2021-12-15
  */
 if ( ! defined( 'WPINC' ) ) {
-	exit( 'No direct access.' );
+	return; // No direct access.
 }
 
 /**
