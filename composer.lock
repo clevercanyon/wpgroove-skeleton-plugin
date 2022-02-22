@@ -59,16 +59,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.27",
+            "version": "3.209.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4a0ded3a5f380f7654da5dc194161588a87d9d3b"
+                "reference": "dfc4fdee991cdf764241125490a0b22875af6afe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4a0ded3a5f380f7654da5dc194161588a87d9d3b",
-                "reference": "4a0ded3a5f380f7654da5dc194161588a87d9d3b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/dfc4fdee991cdf764241125490a0b22875af6afe",
+                "reference": "dfc4fdee991cdf764241125490a0b22875af6afe",
                 "shasum": ""
             },
             "require": {
@@ -144,9 +144,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.27"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.28"
             },
-            "time": "2022-02-18T19:19:17+00:00"
+            "time": "2022-02-21T19:14:33+00:00"
         },
         {
             "name": "clevercanyon/php-scoper",
@@ -276,12 +276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/utilities.git",
-                "reference": "1d9941b1ac152ba47030016024e478257e065ce9"
+                "reference": "9d58e3a2c27653bd10de44d12f65792034a66fcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/utilities/zipball/1d9941b1ac152ba47030016024e478257e065ce9",
-                "reference": "1d9941b1ac152ba47030016024e478257e065ce9",
+                "url": "https://api.github.com/repos/clevercanyon/utilities/zipball/9d58e3a2c27653bd10de44d12f65792034a66fcf",
+                "reference": "9d58e3a2c27653bd10de44d12f65792034a66fcf",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +342,7 @@
                                 "exclude-files": []
                             }
                         },
-                        "post_update_cmd_handler": {
+                        "post_cmd_handler": {
                             "symlink_local_packages": {
                                 "vendor": [
                                     "clevercanyon/standards",
@@ -384,7 +384,7 @@
                 "issues": "https://github.com/clevercanyon/utilities/issues",
                 "source": "https://github.com/clevercanyon/utilities/tree/main"
             },
-            "time": "2022-02-21T09:11:45+00:00"
+            "time": "2022-02-22T08:41:29+00:00"
         },
         {
             "name": "clevercanyon/utilities-dev",
@@ -483,12 +483,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/wpgroove-framework.git",
-                "reference": "77b7120f669c9733bd34caa9c6c688d2aaeae194"
+                "reference": "4c1b79beb70709304438e5ec3334456c0efa1f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/wpgroove-framework/zipball/77b7120f669c9733bd34caa9c6c688d2aaeae194",
-                "reference": "77b7120f669c9733bd34caa9c6c688d2aaeae194",
+                "url": "https://api.github.com/repos/clevercanyon/wpgroove-framework/zipball/4c1b79beb70709304438e5ec3334456c0efa1f99",
+                "reference": "4c1b79beb70709304438e5ec3334456c0efa1f99",
                 "shasum": ""
             },
             "require": {
@@ -525,7 +525,7 @@
                                 "name": "WP Groove: WordPress Framework"
                             }
                         },
-                        "post_update_cmd_handler": {
+                        "post_cmd_handler": {
                             "symlink_local_packages": {
                                 "$concat": {
                                     "vendor": [
@@ -561,7 +561,7 @@
                 "issues": "https://github.com/clevercanyon/wpgroove-framework/issues",
                 "source": "https://github.com/clevercanyon/wpgroove-framework/tree/main"
             },
-            "time": "2022-02-21T09:13:05+00:00"
+            "time": "2022-02-22T10:15:36+00:00"
         },
         {
             "name": "clevercanyon/wpgroove-framework-dev",
