@@ -1,3 +1,3 @@
-# WP Groove WordPress Plugin: Skeleton
+# WP Groove WordPress Plugin: {{name: Skeleton}}
 
-This is a skeleton directory for new WP Groove WordPress plugins.
+{{description: This is a skeleton directory for new WP Groove WordPress plugins.}}

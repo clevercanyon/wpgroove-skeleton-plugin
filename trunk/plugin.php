@@ -11,11 +11,11 @@
 // <editor-fold desc="Strict types, namespace, use statements, and other headers.">
 
 /**
- * Plugin Name: Skeleton Plugin
+ * Plugin Name: {{name: Skeleton Plugin}}
  * Plugin URI: https://wpgroove.com/product/skeleton-plugin
  *
  * Description: This is a skeleton directory for new WP Groove WordPress plugins.
- * Tags: developers, skeleton plugin
+ * Tags: wpgroove, addons
  *
  * Version: 1.0.0
  * Stable tag: 1.0.0
@@ -92,7 +92,7 @@ require_once __DIR__ . '/vendor/autoload.php';
  */
 WP\Plugin::add_instance_hooks(
 	__FILE__,
-	'Skeleton Plugin', // @name
+	'{{name: Skeleton Plugin}}', // @name
 	'wpgroove-skeleton-plugin', // @slug
 	'1.0.0' // @version
 );

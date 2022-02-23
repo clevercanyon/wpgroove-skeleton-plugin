@@ -14,13 +14,13 @@
 	},
 	"autoload-dev"      : {
 		"psr-4" : {
-			"Clever_Canyon\\Utilities\\Tests\\"                       : [ "./vendor/clevercanyon/utilities/tests/classes" ],
-			"WP_Groove\\Framework\\Tests\\"                           : [ "./vendor/clevercanyon/wpgroove-framework/tests/classes" ],
-			"WP_Groove\\LiteSpeed_Downloads_For_WooCommerce\\Tests\\" : [ "./tests/classes" ]
+			"Clever_Canyon\\Utilities\\Tests\\"   : [ "./vendor/clevercanyon/utilities/tests/classes" ],
+			"WP_Groove\\Framework\\Tests\\"       : [ "./vendor/clevercanyon/wpgroove-framework/tests/classes" ],
+			"WP_Groove\\Skeleton_Plugin\\Tests\\" : [ "./tests/classes" ]
 		}
 	},
 	"scripts"           : {
-		"compile"          : "COMPOSER_DEV_MODE=1 ./vendor/clevercanyon/wpgroove-framework/dev/cli-tools/composer/compile",
+		"compile"          : "./vendor/clevercanyon/wpgroove-framework/dev/cli-tools/composer/compile",
 		"post-install-cmd" : "[ $COMPOSER_DEV_MODE -eq 0 ] || ./vendor/clevercanyon/wpgroove-framework/dev/cli-tools/composer/on-post-install-cmd",
 		"post-update-cmd"  : "[ $COMPOSER_DEV_MODE -eq 0 ] || ./vendor/clevercanyon/wpgroove-framework/dev/cli-tools/composer/on-post-update-cmd"
 	},
@@ -35,7 +35,7 @@
 
 						"layout"         : "wp-plugin",
 						"namespace_crux" : "WP_Groove\\Skeleton_Plugin",
-						"name"           : "Skeleton Plugin"
+						"name"           : "{{name: Skeleton Plugin}}"
 					}
 				}
 			}

@@ -1,7 +1,7 @@
-=== Skeleton Plugin ===
+=== {{name: Skeleton Plugin}} ===
 
 Contributors: clevercanyon
-Tags: developers, skeleton plugin
+Tags: wpgroove, addons
 Donate link: https://wpgroove.com/donate
 Requires PHP: 7.4
 Requires at least: 5.8.2
@@ -10,11 +10,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Skeleton used by engineers at WP Groove. It's for new WordPress plugins.
+{{description: Skeleton used by engineers at WP Groove. It's for new WordPress plugins.}}
 
 == Description ==
 
-Skeleton used by engineers at WP Groove. Makes it easy to create a new plugin using the WP Groove framework.
+{{description: Skeleton used by engineers at WP Groove. Makes it easy to create a new plugin using the WP Groove framework.}}
 
 == Installation ==
 
