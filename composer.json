@@ -40,6 +40,9 @@
 						"namespace_crux" : "WP_Groove\\Skeleton_Plugin",
 						"name"           : "{{name: Skeleton Plugin}}"
 					}
+				},
+				"webpack" : {
+					"assetDirs" : [ "../../../trunk/src/assets" ]
 				}
 			}
 		}
