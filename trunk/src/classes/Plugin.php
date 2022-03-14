@@ -48,7 +48,17 @@ use WP_Groove\{Skeleton_Plugin as WP};
  */
 final class Plugin extends WPG\A6t\Plugin {
 	/**
-	 * On `plugins_loaded` hook.
+	 * Does hook setup on instantiation.
+	 *
+	 * @since 2021-12-15
+	 */
+	protected function setup_hooks() : void {
+		parent::setup_hooks();
+		// Nothing for now.
+	}
+
+	/**
+	 * Runs on `plugins_loaded` hook.
 	 *
 	 * @since 2021-12-15
 	 */
@@ -58,7 +68,7 @@ final class Plugin extends WPG\A6t\Plugin {
 	}
 
 	/**
-	 * On `init` hook.
+	 * Runs on `init` hook.
 	 *
 	 * @since 2021-12-15
 	 */
