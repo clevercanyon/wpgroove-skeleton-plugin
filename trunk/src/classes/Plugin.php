@@ -56,24 +56,4 @@ final class Plugin extends WPG\A6t\Plugin {
 		parent::setup_hooks();
 		// Nothing for now.
 	}
-
-	/**
-	 * Runs on `plugins_loaded` hook.
-	 *
-	 * @since 2021-12-15
-	 */
-	public function on_plugins_loaded() : void {
-		parent::on_plugins_loaded();
-		// Nothing for now.
-	}
-
-	/**
-	 * Runs on `init` hook.
-	 *
-	 * @since 2021-12-15
-	 */
-	public function on_init() : void {
-		parent::on_init();
-		// Nothing for now.
-	}
 }
