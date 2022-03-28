@@ -35,7 +35,7 @@
  * Text Domain: wpgroove-skeleton-plugin
  * Domain Path: /languages
  *
- * Update URI: https://wpgroove.com/product/skeleton-plugin/update
+ * [x] Update URI: https://wpgroove.com/wp-json/c24s/v1/product/skeleton-plugin/wp-update
  */
 
 /**
@@ -93,6 +93,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 WP\Plugin::add_instance_hooks(
 	__FILE__,
 	'{{name: Skeleton Plugin}}', // @name
-	'wpgroove-skeleton-plugin', // @slug
-	'1.0.0' // @version
+	'wpgroove-skeleton-plugin',  // @slug
+	'1.0.0'                      // @version
 );
