@@ -93,6 +93,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 WP\Plugin::add_instance_hooks(
 	__FILE__,
 	'{{name: Skeleton Plugin}}', // @name
-	'wpgroove-skeleton-plugin',  // @slug
-	'1.0.0'                      // @version
+	'wpgroove-skeleton-plugin', // @slug
+	'1.0.0' // @version
 );
